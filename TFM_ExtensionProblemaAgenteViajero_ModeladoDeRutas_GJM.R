@@ -1655,7 +1655,7 @@ main = function(dif, ver, fun_obj){
     info_sol(solucion, dif, n, K, Q, Cam, n_mat, length(coef))
     
   }else{
-    # CONSTRUCCION DE LA MATRIZ DE COEFICIENTES CASO CRISP
+    # CONSTRUCCION DE LA MATRIZ DE COEFICIENTES CASO DIFUSO
     # Matriz de coeficientes
     A = matrix(0, nrow = n_ec, ncol = length(coef))
     
